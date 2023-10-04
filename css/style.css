@@ -89,26 +89,35 @@ h1, h2, h3{
 
 .grid div:nth-child(3n+1)  {
     /* Set box shadow */
-    }
+    box-shadow: 10px 10px;
+}
 
 .grid div:nth-child(3n)  {
     /* Set box shadow */ 
+    box-shadow: -10px 10px;
 }
 
 .grid div:nth-child(3n+2)  {
      /* Set box shadow */
+     box-shadow: 10px 10px, -10px 10px;
 }
     
 
 p + p {
      /* Set indentation */
+     text-indent: 15%;
   }
   
 p{
      /* Set margin */
+     margin-top: 5px;
+     margin-bottom: 5px;
 }
 
 
 .grid ul li{
     /* Set margin, line-spacing, list styling  */
+    margin-left: 50px;
+    line-height: 2;
+    list-style: url(../images/sketchbook.png);
 }
